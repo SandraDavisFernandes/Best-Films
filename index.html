@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieMingle</title>
+    <link href="css/style.css" rel="stylesheet"/>
+</head>
+<body>
+    <header id="theHeader">
+        <div id="backColorHeader">
+            <div id="logotypes">
+                <div>
+                    <img class="movieMingle" src="assets/logotypes/companyLogo.png" alt="company logotype"/>
+                </div>
+                <div>
+                    <a href="#"><img class="flags" src="assets/otherPictures/swedishFlag.png" alt="Swedish flag"/></a>
+                </div>
+                <div>
+                    <a href="#"><img class="flags" src="assets/otherPictures/usaFlag.png" alt= "USA flag"/></a>
+                </div>
+                <div>
+                    <button class="login" type="submit">LOGIN</button>
+                </div>
+            </div>
+            <div><h1>MovieMingle</h1></div>
+                <nav>
+                    <ul id="navMenuList">
+                        <li><a href="#">Movies</a></li>
+                        <li><a href="#">Offers</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Be a Member</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div id="socialMidia">
+            <div>
+                <a href="#"><img class="instagram" src="assets/logotypes/instagramLogo.png" alt="instagram logotype"/></a>
+            </div>
+            <div>
+                <a href="#"><img class="tweeter" src="assets/logotypes/tweeterLogo.png" alt="tweeter logotype"/></a>
+            </div>
+            <div>
+                <a href="#"><img class="facebook" src="assets/logotypes/facebookLogo.png" alt="facebook logotype"/></a>
+            </div>
+            <div>
+                <a href="#"><img class="whatsupp" src="assets/logotypes/whatsuppLogo.png" alt="whatsupp logotype"/></a>
+            </div>
+        </div>
+    </header>
+    <main id="theMain">
+        <section id="search">
+            <h2>Yes! Grab your popcorn, dim the lights and let the reel magic unfold</h2>
+            <div id="searchForm">
+                <form>
+                    <input id="filmsearch" type="text" name="filmsearch" placeholder="Search for a movie..."/>
+                </form>
+                <img id="searchSimbol" src="assets/otherPictures/searchSimbol.png" alt="search simbol"/>
+            </div>
+            <div id="agiftForYou">
+                <a href="#"><img src="assets/otherPictures/agiftForYou.png" alt="picture of a presente" title="Click to receive your present!" onclick="tryMe();"/></a>
+            </div>
+        </section>
+        <section id="movies">
+            <div id="romance">
+                <div class="filmAlign">
+                    <a href="#"><img class="filmSize" src="assets/movies/Romance/Titanic.png" alt="Titanic film poster"/></a>
+                    <p><span class="filmInfoBold">Title:</span> Titanic</p>
+                    <p><span class="filmInfoBold">Duration:</span> 3h14m</p>
+                    <p><span class="filmInfoBold">Gender:</span> Romance</p>
+                    <p><span class="filmInfoBold">Year:</span> 1997</p>
+                    <p><span class="filmInfoBold description">Description:</span> The young aristocrat Rose (Kate Winslet) falls in love with struggling artist Jack (Leonardo DiCaprio) aboard the R.M.S. Titanic. Their passionate romance unfolds against the backdrop of the ship’s tragic maiden voyage.</p>   
+                </div>
+                <div class="filmAlign">
+                    <a href="#"><img class="filmSize" src="assets/movies/Romance/redeemingLove.png" alt="Redeeming Love film poster"/></a>
+                    <p><span class="filmInfoBold">Title:</span> Redeeming Love </p>
+                    <p><span class="filmInfoBold">Duration:</span> 2h14m</p>
+                    <p><span class="filmInfoBold">Gender:</span> Romance</p>
+                    <p><span class="filmInfoBold">Year:</span> 2022</p>
+                    <p><span class="filmInfoBold description">Description:</span>A young couple, Angel (Abigail Cowen) and Michael (Tom Lewis), fight against the harsh realities of the California Gold Rush of 1850. Angel was sold into prostitution as a child. Can a heart that knows nothing but betrayal be mended?</p>
+                </div>
+                <div class="filmAlign">
+                    <a href="#"><img class="filmSize" src="assets/movies/Romance/thePaintedVeil.png" alt="the Painted Veil film poster"/></a>
+                    <p><span class="filmInfoBold">Title:</span> The Painted Veil</p>
+                    <p><span class="filmInfoBold">Duration:</span> 2h05m</p>
+                    <p><span class="filmInfoBold">Gender:</span> Romance </p>
+                    <p><span class="filmInfoBold">Year:</span> 2007 </p>
+                    <p><span class="filmInfoBold description">Description:</span>An unhappy wife (Naomi Watts) is caught in an affair with another man (Liev Schreiber) and forced to accompany her husband and scientist (Edward Norton) to mainland China in the 1920s to fight a cholera epidemic. There, she embarks on a journey of self-discovery that leads to an unexpected chance at redemption. Can love overcome deep pain?</p>
+                </div>
+                <div class="filmAlign">
+                    <a href="#"><img class="filmSize" src="assets/movies/Romance/aWalkInTheClouds.jpg" alt="A Walk in the Clouds film poster"/></a>
+                    <p><span class="filmInfoBold">Title:</span> A Walk in the Clouds</p>
+                    <p><span class="filmInfoBold">Duration:</span> 1h43m</p>
+                    <p><span class="filmInfoBold">Gender:</span> Romance</p>
+                    <p><span class="filmInfoBold">Year:</span> 1995</p>
+                    <p><span class="filmInfoBold description">Description:</span>Paul Sutton (Keanu Reeves), a young married soldier, returnes home from the war to find out that his wife has no interest in him or his plans for the future. He leaves and meets Victoria (Aitana Sánchez-Gijón), a pregnant lady who is petrified her father will find out and disown her. He  agrees to pose as her boyfriend and as time passes, love grows.</p>  
+                </div>
+            </div>
+            <div id="fiction">
+                <div  class="filmAlign">
+                    <a href="#"><img class="filmSize" src="assets/movies/Fiction/inception.png" alt="Inception film poster"/></a>
+                    <p><span class="filmInfoBold">Title:</span> Inception</p>
+                    <p><span class="filmInfoBold">Duration:</span> 2h28m</p>
+                    <p><span class="filmInfoBold">Gender:</span> fiction </p>
+                    <p><span class="filmInfoBold">Year:</span> 2010 </p>
+                    <p><span class="filmInfoBold description">Description</span>Cobb (Leonardo DiCaprio) is a professional thief who steals information through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O in exchange  to have his criminal history erased as payment. But this may lead to a disaster.</p>    
+                </div>
+                <div class="filmAlign">
+                    <a href="#"><img class="filmSize" src="assets/movies/Fiction/theHungerGames.png" alt="The Hunger Games film poster"/></a>
+                    <p><span class="filmInfoBold">Title:</span> The Hunger Games</p>
+                    <p><span class="filmInfoBold">Duration:</span> 2h22m</p>
+                    <p><span class="filmInfoBold">Gender:</span> Fiction </p>
+                    <p><span class="filmInfoBold"></span>Year: 2012</p>
+                    <p><span class="filmInfoBold description">Description:</span>In a dystopian future, Katniss Everdeen (Jennifer Lawrence), volunteers to take her sister’s place in the Hunger Games, a televised fight to the death where two teenagers from each of the twelve districts of Panem are chosen. She must navigate alliances and survive the brutal competition. Katniss’s skills, instincts, and relationships are put to the test as she fights not just for survival, but for change.</p> 
+                </div>
+                <div class="filmAlign">
+                    <a href="#"><img class="filmSize" src="assets/movies/Fiction/matrix.png" alt="Matrix film poster"/></a>
+                    <p><span class="filmInfoBold">Title:</span> Matrix </p>
+                    <p><span class="filmInfoBold">Duration:</span> 2h16m</p>
+                    <p><span class="filmInfoBold">Gender:</span> Fiction </p>
+                    <p><span class="filmInfoBold">Year:</span> 1999 </p>
+                    <p><span class="filmInfoBold description">Description:</span>The computer hacker Neo (Keanu Reeves) discovers that his reality is a simulated world created by malevolent machines. He joins a group of rebels led by Morpheus (Laurence Fishburne) and Trinity (Carrie-Anne Moss) to fight against the machines and free humanity.</p>
+                </div>
+                <div class="filmAlign">
+                    <a href="#"><img class="filmSize" src="assets/movies/Fiction/starTrekIntoDarkness.png" alt="Star Trek Into Darkness film poster"/></a>
+                    <p><span class="filmInfoBold">Title:</span> Star Trek Into Darkness </p>
+                    <p><span class="filmInfoBold">Duration:</span> 2h12m</p>
+                    <p><span class="filmInfoBold">Gender:</span>Fiction </p>
+                    <p><span class="filmInfoBold">Year:</span> 2013 </p>
+                    <p><span class="filmInfoBold description">Description:</span>The USS Enterprise crew travels to a dark and forbidden zone in space to rescue an endangered species. Captain Kirk (Chris Pine) then leads his team to a war-zone world in search of a weapon of mass destruction but this journey challenges their values and testing their loyalty to each other.</p>      
+                </div>
+            </div>
+            <div id="adventure">
+                <div class="filmAlign">
+                    <a href="#"><img class="filmSize" src="assets/movies/Adventure/alpha.png" alt="Alpha film poster"/></a>
+                    <p><span class="filmInfoBold">Title:</span> Alpha </p>
+                    <p><span class="filmInfoBold">Duration:</span> 1h37m</p>
+                    <p><span class="filmInfoBold">Gender:</span> Adventure </p>
+                    <p><span class="filmInfoBold">Year:</span> 2018</p>
+                    <p><span class="filmInfoBold description">Description:</span>During the last Ice Age, a young hunter named Keda (Kodi Smit-McPhee) is left for dead after a hunting accident. He befriends an injured wolf, and together they embark on a perilous journey through the wilderness to find their way home before the deadly winter arrives.</p>
+                </div>
+                <div class="filmAlign">
+                    <a href="#"><img class="filmSize" src="assets/movies/Adventure/robinHood.png" alt="Robin Hood film poster"/></a>
+                    <p><span class="filmInfoBold">Title:</span> Robin Hood</p>
+                    <p><span class="filmInfoBold">Duration:</span> 2h20m</p>
+                    <p><span class="filmInfoBold">Gender:</span> Adventure</p>
+                    <p><span class="filmInfoBold">Year:</span> 2010 </p>
+                    <p><span class="filmInfoBold description">Description:</span> Robin Longstride (Russell Crowe), an archer in the army of King Richard the Lionheart, returns to England after the king’s death. Assuming the identity of a nobleman, he confronts corruption and leads an uprising against the crown. His actions ignite a battle for freedom, altering the balance of power and spreading hope of a better future. </p>
+                </div>
+                <div class="filmAlign">
+                    <a href="#"><img class="filmSize" src="assets/movies/Adventure/inferno.png" alt="Inferno film poster"/></a>
+                    <p><span class="filmInfoBold">Title:</span> Inferno</p>
+                    <p><span class="filmInfoBold">Duration:</span> 2h01m</p>
+                    <p><span class="filmInfoBold">Gender:</span> Adventure</p>
+                    <p><span class="filmInfoBold">Year:</span> 2016 </p>
+                    <p><span class="filmInfoBold description">Description</span>Robert Langdon (Tom Hanks), a Harvard professor, wakes up in an Italian hospital with amnesia. With the help of Dr. Sienna Brooks (Felicity Jones), he races across Europe to thwart a global plot involving a virus linked to Dante’s Inferno that could halve the world’s population.</p>
+                </div>
+                <div class="filmAlign">
+                    <a href="#"><img class="filmSize" src="assets/movies/Adventure/everest.png" alt="Everest film poster"/></a>
+                    <p><span class="filmInfoBold">Title:</span> Everest </p>
+                    <p><span class="filmInfoBold">Duration:</span> 2h01m</p>
+                    <p><span class="filmInfoBold">Gender:</span> Adventure</p>
+                    <p><span class="filmInfoBold"></span>Year: 2015</p>
+                    <p><span class="filmInfoBold description">Description</span>Rob Hall (Jason Clarke) and Scott Fischer (Jake Gyllenhaal), embark on a perilous expedition to conquer the world’s highest peak: Mount Everest. Their quest is met with unforeseen tragedy as a brutal storm engulfs the mountain, testing the limits of their endurance and spirit in a fight for survival.</p>
+                </div>
+                </div>
+            <div id="family-friendly">
+                <div class="filmAlign">
+                    <a href="#"><img class="filmSize" src="assets/movies/Family-Friendly/increadibles2.png" alt="Increadibles 2 film poster"/></a>
+                    <p><span class="filmInfoBold">Title:</span> Increadibles 2</p>
+                    <p><span class="filmInfoBold">Duration:</span> 1h58m</p>
+                    <p><span class="filmInfoBold">Gender: </span>Family-Friendly </p>
+                    <p><span class="filmInfoBold">Year:</span> 2018 </p>
+                    <p><span class="filmInfoBold description">Description:</span>The Parr family as deals with the complexities of superheros laws. Elastigirl spearheads a movement to regain the confidence of the public in superheroes. Meanwhile, Mr. Incredible grapples with the difficulties of domestic life and parenting. Their lives are further complicated by the emergence of a new adversary, Screenslaver, who is intent on sabotaging their mission.</p>
+                </div>
+                <div class="filmAlign">
+                    <a href="#"><img class="filmSize" src="assets/movies/Family-Friendly/toyStory.png" alt="Toy Story 4 film poster"/></a>
+                    <p><span class="filmInfoBold">Title:</span> Toy Story 4</p>
+                    <p><span class="filmInfoBold">Duration:</span> 1h40m</p>
+                    <p><span class="filmInfoBold">Gender:</span> Family-Friendly </p>
+                    <p><span class="filmInfoBold">Year:</span> 2019 </p>
+                    <p><span class="filmInfoBold description">Description:</span> Woody and the gang embark on a road trip with Bonnie and a new toy named Forky, who is grappling with his identity. The journey leads to an unexpected reunion with Woody’s old flame, Bo Peep. Woody faces a profound choice about his future as a toy</p>
+                </div>
+                <div class="filmAlign">
+                    <a href="#"><img class="filmSize" src="assets/movies/Family-Friendly/weCanBeHeroes.png" alt=" film poster"/></a>
+                    <p><span class="filmInfoBold">Title:</span> We Can Be Heroes </p>
+                    <p><span class="filmInfoBold">Duration:</span> 1h40m</p>
+                    <p><span class="filmInfoBold">Gender:</span> Family-Friendly</p>
+                    <p><span class="filmInfoBold">Year:</span> 2020</p>
+                    <p><span class="filmInfoBold description">Description:</span>Missy Moreno (YaYa Gosselin), is the daughter of superhero Marcus Moreno (Pedro Pascal). When alien forces abduct Earth’s superheroes, Missy unites with other superhero children at a government safe house. Together, they must harness their powers to rescue their parents and thwart the alien threat.</p>
+                </div>
+                <div class="filmAlign">
+                    <a href="#"><img class="filmSize" src="assets/movies/Family-Friendly/cars.png" alt="Cars 3 film poster"/></a>
+                    <p><span class="filmInfoBold">Title:</span> Cars 3 </p>
+                    <p><span class="filmInfoBold">Duration:</span> 1h49m</p>
+                    <p><span class="filmInfoBold">Gender:</span> Family-Friendly </p>
+                    <p><span class="filmInfoBold">Year:</span> 2017</p>
+                    <p><span class="filmInfoBold description">Description:</span>   McQueen faces a new era of racing. He must prove he’s still the best and with the help of a young technician, Cruz Ramirez, he strives to make a comeback against a new generation of high-tech racers, learning from the past to shape his future.  </p>
+                </div>
+            </div>
+            <br/>
+            <div id="backToTop">
+                <div id="backToTopAlign">
+                    <a href="#" title="Back to the top"><img id="backTop" src="assets/otherPictures/backToTop.png" alt="back to the top icon"/></a>
+                </div>
+             <br/>
+            </div>
+        </section>  
+    </main>
+    <footer id="theFooter"> 
+            <div id="footAncor">
+                <a href="#">Terms of Use</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Copyright &copy; 2024</a>
+            </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
